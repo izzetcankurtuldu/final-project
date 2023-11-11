@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://picsum.photos/id/20/200/300",
+        "title": "Activity 1",
+        "description": "Theatre"
+    },
+    {
+        "id": 2,
+        "image": "https://picsum.photos/id/21/200/300",
+        "title": "Activity 2",
+        "description": "Concert"
+    },
+    {
+        "id": 3,
+        "image": "https://picsum.photos/id/22/200/300",
+        "title": "Activity 3",
+        "description": "Cinema"
+    },
+    {
+        "id": 4,
+        "image": "https://picsum.photos/id/23/200/300",
+        "title": "Activity 4",
+        "description": "Opera"
+    },
+    {
+        "id": 5,
+        "image": "https://picsum.photos/id/24/200/300",
+        "title": "Activity 5",
+        "description": "Painting"
+    },
+    {
+        "id": 6,
+        "image": "https://picsum.photos/id/25/200/300",
+        "title": "Activity 6",
+        "description": "Sculpture"
+    },
+    {
+        "id": 7,
+        "image": "https://picsum.photos/id/26/200/300",
+        "title": "Activity 7",
+        "description": "Theatre"
+    },
+    {
+        "id": 8,
+        "image": "https://picsum.photos/id/27/200/300",
+        "title": "Activity 8",
+        "description": "Cinema"
+    },
+    {
+        "id": 9,
+        "image": "https://picsum.photos/id/28/200/300",
+        "title": "Activity 9",
+        "description": "Opera"
+    },
+    {
+        "id": 10,
+        "image": "https://picsum.photos/id/29/200/300",
+        "title": "Activity 10",
+        "description": "Sculpture"
+    },
+    {
+        "id": 11,
+        "image": "https://picsum.photos/id/30/200/300",
+        "title": "Activity 11",
+        "description": "Theatre"
+    },
+    {
+        "id": 12,
+        "image": "https://picsum.photos/id/32/200/300",
+        "title": "Activity 12",
+        "description": "Concert"
+    }
+]
