@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import Details from "./pages/Details";
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
     <ul>
       <li><Link to='/'>Home</Link></li>
       <li><Link to='/about'>About</Link></li>
+      <li><Link to='/details'>Details</Link></li>
+      <li><Link to='/notfound'>NotFound</Link></li>
 
     </ul>
 
@@ -18,6 +21,7 @@ function App() {
     <Route path='/' element={<HomePage/>}/>
     <Route path='/about' element={<AboutPage/>}/>
     <Route path='/notfound' element={<NotFoundPage/>}/>
+    <Route path='/details' element={<Details/>}/>
   </Routes>
 
   </>
