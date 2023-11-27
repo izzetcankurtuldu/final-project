@@ -1,10 +1,47 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import Header from '../components/Header';
 
-function Details() {
+
+
+const Details = () => {
+
+  const { id } = useParams();
+
+  const [event, setEvent] = useState(null);
+
+  useEffect(() => {
+    const fetchEvent = async () => {
+      try {
+        const response = await fetch(`https://northwind.vercel.app/api/products/${id}`);
+        if (response.ok) {
+          const data = await response.json();
+          setEvent(data);
+        } else {
+          throw new Error('Error fetching event');
+        }
+      } catch (error) {
+        console.error('Error fetching event:', error);
+      }
+    };
+
+    fetchEvent();
+  }, [id]);
+
+  if (!event) {
+    return <div>Loading...</div>;
+  }
+
   return (<>
-    <div>Details</div>
-    </>
-  )
-}
-
-export default Details
+  <Header/>
+    <div className='cardDetails'>
+      <h2>Details for Activity {id}</h2>
+      <div>
+        <p>{event.name}</p>
+      </div>
+      
+    </div>
+  </>
+  );
+};
+export default Details;

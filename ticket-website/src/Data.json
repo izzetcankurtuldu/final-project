@@ -3,72 +3,96 @@
         "id": 1,
         "image": "https://picsum.photos/id/20/600/600",
         "title": "Activity 1",
-        "description": "Theatre"
+        "category": "Theatre",
+        "city": "Izmir",
+        "date": "2023-11-22"
     },
     {
         "id": 2,
         "image": "https://picsum.photos/id/21/600/600",
         "title": "Activity 2",
-        "description": "Concert"
+        "category": "Concert",
+        "city": "Istanbul",
+        "date": "2023-11-23"
     },
     {
         "id": 3,
         "image": "https://picsum.photos/id/22/600/600",
         "title": "Activity 3",
-        "description": "Cinema"
+        "category": "Cinema",
+        "city": "Ankara",
+        "date": "2023-11-24"
     },
     {
         "id": 4,
         "image": "https://picsum.photos/id/23/600/600",
         "title": "Activity 4",
-        "description": "Opera"
+        "category": "Opera",
+        "city": "Izmir",
+        "date": "2023-11-22"
     },
     {
         "id": 5,
         "image": "https://picsum.photos/id/24/600/600",
         "title": "Activity 5",
-        "description": "Painting"
+        "category": "Painting",
+        "city": "Istanbul",
+        "date": "2023-11-24"
     },
     {
         "id": 6,
         "image": "https://picsum.photos/id/25/600/600",
         "title": "Activity 6",
-        "description": "Sculpture"
+        "category": "Sculpture",
+        "city": "Ankara",
+        "date": "2023-11-27"
     },
     {
         "id": 7,
         "image": "https://picsum.photos/id/26/600/600",
         "title": "Activity 7",
-        "description": "Theatre"
+        "category": "Theatre",
+        "city": "Izmir",
+        "date": "2023-11-25"
     },
     {
         "id": 8,
         "image": "https://picsum.photos/id/27/600/600",
         "title": "Activity 8",
-        "description": "Cinema"
+        "category": "Cinema",
+        "city": "Istanbul",
+        "date": "2023-11-25"
     },
     {
         "id": 9,
         "image": "https://picsum.photos/id/28/600/600",
         "title": "Activity 9",
-        "description": "Opera"
+        "category": "Opera",
+        "city": "Ankara",
+        "date": "2023-11-27"
     },
     {
         "id": 10,
         "image": "https://picsum.photos/id/29/600/600",
         "title": "Activity 10",
-        "description": "Sculpture"
+        "category": "Sculpture",
+        "city": "Izmir",
+        "date": "2023-11-23"
     },
     {
         "id": 11,
         "image": "https://picsum.photos/id/30/600/600",
         "title": "Activity 11",
-        "description": "Theatre"
+        "category": "Theatre",
+        "city": "Istanbul",
+        "date": "2023-11-20"
     },
     {
         "id": 12,
         "image": "https://picsum.photos/id/32/600/600",
         "title": "Activity 12",
-        "description": "Concert"
+        "category": "Concert",
+        "city": "Ankara",
+        "date": "2023-11-29"
     }
 ]
