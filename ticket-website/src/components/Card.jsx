@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Data from '../Data.json';
-import Slider from '../components/Slider'
-import slides from '../Data.json';
-import Header from "./Header";
 
 
 function Card() {
@@ -46,9 +43,7 @@ function Card() {
 
   return (<>
     <div className='container'>
-
-      <Slider slides={slides} />
-
+      
       <div className="filterBar">
 
         <label>City:</label>

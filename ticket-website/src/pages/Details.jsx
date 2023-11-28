@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
-
+import GoogleMaps from '../components/GoogleMaps';
 
 
 const Details = () => {
@@ -39,8 +39,8 @@ const Details = () => {
       <div>
         <p>{event.name}</p>
       </div>
-      
     </div>
+    <GoogleMaps/>
   </>
   );
 };

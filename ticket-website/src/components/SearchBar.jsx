@@ -15,7 +15,6 @@ function SearchBar() {
       {/* 
       <div className='dataContainer'>
         {
-
           Data
             .filter((val) => {
               if (searchTerm == "") {
@@ -34,7 +33,6 @@ function SearchBar() {
                 </div>
               )
             })
-
         }
       </div>
     */}
