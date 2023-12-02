@@ -19,6 +19,14 @@ function AboutPage() {
     <div>About Page</div>
     <div>About Page</div>
     <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
+    <div>About Page</div>
     <Footer/>
     
     

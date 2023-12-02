@@ -11,8 +11,8 @@ function Header() {
       <ul>
         <div className="headerLeft">
           <li><Link className="logo" to='/'>TICKET APP</Link></li>
-          <li><Link className="link" to='/about'>About</Link></li>
-          <li><Link className="link" to='/details'>Details</Link></li>
+          <li><Link className="link" to='/about'>Hakkımızda</Link></li>
+          <li><Link className="link" to='/details'>Detaylar</Link></li>
         </div>
         <div className="headerRight">
           <li className='glass'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>

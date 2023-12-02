@@ -8,7 +8,7 @@ function SearchBar() {
   return (<>
 
       <div>
-        <input className='searchInput' type="text" placeholder="Search an Activity..."
+        <input className='searchInput' type="text" placeholder="Bir Etkinlik Arayın..."
           onChange={(e) => setSearchTerm(e.target.value)}/>
       </div>
       

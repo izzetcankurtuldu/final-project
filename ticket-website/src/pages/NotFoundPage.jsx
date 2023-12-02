@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function NotFoundPage() {
 
   
@@ -7,7 +8,10 @@ function NotFoundPage() {
     <div>
       <h1>Sorry :(</h1>
       <h3>404 - Page Not Found</h3>
+      
     </div>
+
+    
     </>
   )
 }

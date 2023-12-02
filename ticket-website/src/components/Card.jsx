@@ -46,12 +46,12 @@ function Card() {
       
       <div className="filterBar">
 
-        <label>City:</label>
+        <label>Şehir:</label>
         <select
           value={selectedCity}
           onChange={(e) => setSelectedCity(e.target.value)}
         >
-          <option>Select</option>
+          <option>Seç</option>
 
           {uniqueCities.map((city) => (
             <option value={city} key={city}>{city}</option>
@@ -59,25 +59,25 @@ function Card() {
 
         </select>
 
-        <label>Category:</label>
+        <label>Kategori:</label>
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
         >
-          <option>Select</option>
+          <option>Seç</option>
           {uniquecategorys.map((category) => (
             <option value={category} key={category}>{category}</option>
           ))}
         </select>
 
-        <label>Date:</label>
+        <label>Tarih:</label>
         <input className="dateInput"
           type="date"
           value={selectedDate || ''}
           onChange={(e) => setSelectedDate(e.target.value)}
         />
 
-        <button className="resetButton" onClick={handleClearFiltersClick}>Reset Filters</button>
+        <button className="resetButton" onClick={handleClearFiltersClick}>Filtreleri Temizle</button>
 
       </div>
 

@@ -6,15 +6,15 @@ import { faTwitter, faFacebook, faYoutube, faInstagram } from '@fortawesome/free
 function Footer() {
   return (
     <div className='footer'>
-      <h4>TICKET APP © All Rights Reserved</h4>
+      <h4>TICKET APP © Tüm Hakları Saklıdır.</h4>
       <ul>
-        <li><h5>FAQ</h5></li>
-        <li><h5>Contact Us</h5></li>
-        <li><h5>Privacy</h5></li>
-        <li><h5>Help</h5></li>
-        <li><h5>Cookies</h5></li>
-        <li><h5>Legal</h5></li>
-        <li><h5>Terms & Conditions</h5></li>
+        <li><h5>SSS</h5></li>
+        <li><h5>Bize Ulaşın</h5></li>
+        <li><h5>Gizlilik</h5></li>
+        <li><h5>Yardım</h5></li>
+        <li><h5>Çerezler</h5></li>
+        <li><h5>Yasal Hükümler</h5></li>
+        <li><h5>Kullanım Şartları</h5></li>
       </ul>
       <div className='socialMediaIcons'>
         <a target='_blank' href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a>
