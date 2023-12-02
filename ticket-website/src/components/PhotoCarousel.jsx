@@ -5,13 +5,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { useEffect } from 'react';
 
 const imageWrapperStyle = {
   borderRadius: '10px',
   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
   margin: '0 auto', 
-  width: '700px'
+  width: 'auto'
 };
 
 const imageStyle = {
@@ -69,14 +68,13 @@ function PhotoCarousel() {
     <Slider {...settings}>
       {event.map((item) => (
         <div key={item.image} style={imageWrapperStyle}>
+          
           <Link key={item.id} to={`/details/${item.id}`}>
-          <span>
-          <img
-            style={imageStyle}
-            src={item.image}
-            alt=""
-          />
-          </span>
+            <img
+              style={imageStyle}
+              src={item.image}
+              alt=""
+            />
           </Link>
 
         </div>
